@@ -1,0 +1,32 @@
+const styles = {
+  // box width
+  boxWidth: "xl:max-w-[1200px] w-full mx-auto",
+
+  // heading typography
+  heading:
+    "font-sans font-semibold xs:text-[40px] text-[32px] text-heading xs:leading-[48px] leading-[40px] w-full",
+
+  // paragraph typography
+  paragraph:
+    "font-sans font-normal text-secondary text-[16px] leading-[24px] tracking-[0.08px]",
+
+  // flex-center
+  flexCenter: "flex justify-center items-center",
+
+  // padding
+  padding: "sm:px-16 px-6 sm:py-24 py-6",
+
+  // padding-x
+  paddingX: "sm:px-16 px-6",
+
+  // padding-y
+  paddingY: "sm:py-16 py-6",
+
+  // margin-x
+  marginX: "sm:mx-16 mx-6",
+
+  // margin-y
+  marginY: "sm:my-16 my-6",
+};
+
+export default styles;
