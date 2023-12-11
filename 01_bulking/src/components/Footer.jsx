@@ -63,25 +63,25 @@ const Footer = () => (
               target="_blank"
               className="w-10 h-10 flex justify-center items-center border border-solid border-white/[.12] rounded-[20px] text-white transition-all duration-300 ease-linear hover:bg-white hover:text-[#08172D]"
             >
-              <IconImg className="w-[14px] h-[14px]" />
+              <IconImg className="w-4 h-4" />
             </a>
           );
         })}
       </div>
-      <div className="flex gap-10 justify-end items-center">
+      <div className="flex flex-wrap gap-4 sm:gap-10 justify-center items-center">
         <Link to="/faq">
           <p className={`${styles.paragraph} font-medium text-[#c5c5c5]`}>
             FAQ
           </p>
         </Link>
-        <Link to="/privacy-policy">
-          <p className={`${styles.paragraph} font-medium text-[#c5c5c5]`}>
-            Privacy Policy
-          </p>
-        </Link>
         <Link to="/terms-of-service">
           <p className={`${styles.paragraph} font-medium text-[#c5c5c5]`}>
             Terms of Service
+          </p>
+        </Link>
+        <Link to="/privacy-policy">
+          <p className={`${styles.paragraph} font-medium text-[#c5c5c5]`}>
+            Privacy Policy
           </p>
         </Link>
       </div>

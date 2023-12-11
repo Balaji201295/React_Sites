@@ -21,6 +21,8 @@ const IconImg = item.icon;
 // finishing pages
 
 1. Error page
+2. Terms and Conditions
+3. Privacy and Policy
 
 // finishing components
 

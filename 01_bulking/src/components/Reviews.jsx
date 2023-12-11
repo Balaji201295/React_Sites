@@ -35,7 +35,11 @@ const Reviews = () => {
     <section
       className={`${styles.padding} flex flex-col items-center justify-center`}
     >
-      <SectionHeading heading="Review" title="What Our Happy Clients Say" />
+      <SectionHeading
+        heading="Review"
+        title="What Our Happy Clients Say"
+        maxWidth="max-w-[336px]"
+      />
       <div className="flex gap-4 items-start mx-auto ">
         <div className="flex-[.10] flex justify-start items-start">
           <img src={Quote} alt="Quote" />

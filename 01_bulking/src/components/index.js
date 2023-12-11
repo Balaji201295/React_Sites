@@ -10,6 +10,7 @@ export { default as MembershipItems } from "./MembershipItems";
 export { default as Navbar } from "./Navbar";
 export { default as Overview } from "./Overview";
 export { default as PackageForm } from "./PackageForm";
+export { default as PageHeading } from "./PageHeading";
 export { default as PersonalTrainingInfo } from "./PersonalTrainingInfo";
 export { default as ProgramItems } from "./ProgramItems";
 export { default as Reviews } from "./Reviews";

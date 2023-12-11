@@ -2,9 +2,13 @@ const styles = {
   // box width
   boxWidth: "xl:max-w-[1200px] w-full mx-auto",
 
+  // page heading
+  pageHeading:
+    "font-sans font-semibold text-[1c1c1e] text-[36px] sm:text-[48px] md:text-[72px] leading-[45px] sm:leading-[60px] md:leading-[80px] tracking-[0.36px] mb-4",
+
   // heading typography
   heading:
-    "font-sans font-semibold xs:text-[40px] text-[32px] text-heading xs:leading-[48px] leading-[40px] w-full",
+    "font-sans font-semibold sm:text-[40px] text-[32px] text-heading sm:leading-[48px] leading-[40px] w-full",
 
   // paragraph typography
   paragraph:
