@@ -15,6 +15,7 @@ export { default as PersonalTrainingInfo } from "./PersonalTrainingInfo";
 export { default as ProgramItems } from "./ProgramItems";
 export { default as Reviews } from "./Reviews";
 export { default as SectionHeading } from "./SectionHeading";
+export { default as SectionIntro } from "./SectionIntro";
 export { default as Sessions } from "./Sessions";
 export { default as SubscriptionDetails } from "./SubscriptionDetails";
 export { default as Teams } from "./Teams";

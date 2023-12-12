@@ -61,7 +61,7 @@ const Footer = () => (
               key={index}
               href={item.link}
               target="_blank"
-              className="w-10 h-10 flex justify-center items-center border border-solid border-white/[.12] rounded-[20px] text-white transition-all duration-300 ease-linear hover:bg-white hover:text-[#08172D]"
+              className="w-10 h-10 flex justify-center items-center border border-solid border-white/[.12] rounded-[20px] text-white transition-all duration-300 ease-linear hover:bg-primary hover:text-[#08172D]"
             >
               <IconImg className="w-4 h-4" />
             </a>

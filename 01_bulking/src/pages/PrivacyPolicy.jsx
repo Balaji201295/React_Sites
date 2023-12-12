@@ -6,7 +6,7 @@ const PrivacyPolicy = () => (
     <PageHeading
       title="Privacy"
       titleSpan="Policy"
-      updateDetails="Last updated November 28, 2022"
+      content="Last updated November 28, 2022"
     />
     <div className="flex flex-col">
       <h3 className="font-sans text-xl sm:text-3xl font-semibold tracking-[.16] mb-4">
