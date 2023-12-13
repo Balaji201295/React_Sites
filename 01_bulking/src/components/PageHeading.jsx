@@ -11,7 +11,7 @@ const PageHeading = ({
 }) => (
   <div className="mb-8 sm:mb-12">
     <h1 className={` ${styles.pageHeading} ${align} ${fontStyle}`}>
-      {title}&nbsp;<span className="font-normal">{titleSpan}</span>
+      {title}&nbsp;<span className="font-medium">{titleSpan}</span>
     </h1>
     <p
       className={`${styles.paragraph}  ${margin} ${align} ${

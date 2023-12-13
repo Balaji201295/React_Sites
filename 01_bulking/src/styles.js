@@ -4,7 +4,7 @@ const styles = {
 
   // page heading
   pageHeading:
-    "font-sans font-semibold text-[1c1c1e] text-[36px] sm:text-[48px] md:text-[72px] leading-[45px] sm:leading-[60px] md:leading-[80px] tracking-[0.36px] mb-4",
+    "font-sans font-normal text-[1c1c1e] text-[36px] sm:text-[48px] md:text-[72px] leading-[45px] sm:leading-[60px] md:leading-[80px] tracking-[0.36px] mb-4",
 
   // heading typography
   heading:
