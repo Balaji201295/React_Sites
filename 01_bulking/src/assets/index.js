@@ -27,9 +27,11 @@ import Image_3 from "./image_3.png";
 import Image_4 from "./image_4.png";
 import Logo from "./Logo.svg";
 import Menu from "./menu.svg";
+import Minus from "./minus.svg";
 import NewBalance from "./new-balance.svg";
 import Nike from "./nike.svg";
 import Paypal from "./paypal.png";
+import Plus from "./plus.svg";
 import Quote from "./quote.svg";
 import SlimWaist from "./slim-waist.svg";
 import Star from "./star.svg";
@@ -73,9 +75,11 @@ export {
   Image_4,
   Logo,
   Menu,
+  Minus,
   NewBalance,
   Nike,
   Paypal,
+  Plus,
   Quote,
   SlimWaist,
   Star,

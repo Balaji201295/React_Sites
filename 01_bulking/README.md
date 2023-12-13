@@ -23,6 +23,7 @@ const IconImg = item.icon;
 1. Error page
 2. Terms and Conditions
 3. Privacy and Policy
+4. Trainers
 
 // finishing components
 

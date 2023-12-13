@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles";
-import { trainers } from "../constants";
+import { trainers, coreWorks } from "../constants";
 import { CTA, PageHeading, SectionIntro } from "../components";
 const Trainers = () => (
   <main className="bg-[#F9F9FB]">
@@ -49,12 +49,52 @@ const Trainers = () => (
           );
         })}
       </div>
-      <div className={styles.padding}>
-        <SectionIntro
-          title="My Core Work Values"
-          content="Consectetur adipiscing elit. Odio amet egestasolm dignissim eu nunc. Id pulvinar enim volutpat tellus. "
-          maxWidth="max-w-[512px]"
-        />
+    </div>
+    <div className={`${styles.padding} w-full max-w-6xl mx-auto`}>
+      <SectionIntro
+        title="My Core Work Values"
+        content="Consectetur adipiscing elit. Odio amet egestasolm dignissim eu nunc. Id pulvinar enim volutpat tellus. "
+        maxWidth="max-w-[512px]"
+      />
+      <div className="flex flex-wrap">
+        {coreWorks.map((item, index) => {
+          const { icon, title, content } = item;
+          const isEven = index % 2 === 1;
+
+          const isFirstColumn = index === 0;
+          const isThirdColumn = index === 2;
+          const borderRadiusClasses = `${
+            isFirstColumn
+              ? "md:rounded-tl-3xl md:rounded-bl-3xl rounded-tl-3xl rounded-tr-3xl xs:rounded-none"
+              : ""
+          } ${
+            isThirdColumn
+              ? "md:rounded-tr-3xl md:rounded-br-3xl rounded-bl-3xl rounded-br-3xl xs:rounded-none"
+              : ""
+          }`;
+
+          const columnClasses = `flex-1 min-w-[270px] p-6 sm:py-8 sm:px-10 ${borderRadiusClasses} ${
+            isEven ? "bg-blue-500" : "bg-white"
+          }`;
+          const textClasses = `font-sans sm:text-2xl text-xl font-semibold tracking-[.12px] pt-3 pb-6 ${
+            isEven ? "text-white" : "text-black"
+          }`;
+          // Define classes for border radius based on the column position
+
+          return (
+            <div key={index} className={columnClasses}>
+              <img src={icon} alt={title} className="w-12 h-12" />
+              <h3 className={textClasses}>{title}</h3>
+              <p
+                className={`${styles.paragraph} ${
+                  isEven ? "text-[#D1D1D6]" : "text-secondary"
+                }`}
+              >
+                {content}
+              </p>
+            </div>
+          );
+        })}
       </div>
     </div>
     <CTA />
