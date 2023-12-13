@@ -86,13 +86,13 @@ const Faq = () => {
             maxWidth="max-w-sm"
           />
           <form onSubmit={handleSubmit} className="flex flex-col gap-6">
-            {["Full Name", "Email", "Message"].map((field) => (
+            {["name", "email", "message"].map((field) => (
               <div key={field} className="flex flex-col gap-4">
                 <label
                   htmlFor={field}
-                  className="font-sans text-sm font-medium text-primary tracking-[.07px]"
+                  className="font-sans text-sm font-medium capitalize text-primary tracking-[.07px]"
                 >
-                  {field}
+                  {field === "name" ? `full ${field}` : field}
                 </label>
                 {field === "message" ? (
                   <textarea

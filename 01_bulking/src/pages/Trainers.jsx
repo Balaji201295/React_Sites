@@ -85,11 +85,7 @@ const Trainers = () => (
             <div key={index} className={columnClasses}>
               <img src={icon} alt={title} className="w-12 h-12" />
               <h3 className={textClasses}>{title}</h3>
-              <p
-                className={`${styles.paragraph} ${
-                  isEven ? "text-[#D1D1D6]" : "text-secondary"
-                }`}
-              >
+              <p className={` ${isEven ? "text-[#D1D1D6]" : "text-secondary"}`}>
                 {content}
               </p>
             </div>

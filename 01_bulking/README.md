@@ -24,6 +24,7 @@ const IconImg = item.icon;
 2. Terms and Conditions
 3. Privacy and Policy
 4. Trainers
+5. FAQ
 
 // finishing components
 
