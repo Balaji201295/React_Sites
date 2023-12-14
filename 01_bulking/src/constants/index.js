@@ -1,7 +1,7 @@
 import {
   AppleWatch,
   Biceps,
-  CheckMark,
+  CheckMarkColor,
   CloseMark,
   Davis,
   Dumbbell_1,
@@ -354,7 +354,7 @@ export const personalTrainingInfo = [
 
 // membership
 
-export const planOverview = [
+export const overview = [
   {
     access: "Classes per month",
     free: 1,
@@ -363,57 +363,57 @@ export const planOverview = [
   },
   {
     access: "Access to online classes",
-    free: CheckMark,
-    basics: CheckMark,
-    professional: CheckMark,
+    free: CheckMarkColor,
+    basics: CheckMarkColor,
+    professional: CheckMarkColor,
   },
   {
     access: "Health & fitness guides",
-    free: CheckMark,
-    basics: CheckMark,
-    professional: CheckMark,
+    free: CheckMarkColor,
+    basics: CheckMarkColor,
+    professional: CheckMarkColor,
   },
   {
     access: "Full Warmup guide",
-    free: CheckMark,
-    basics: CheckMark,
-    professional: CheckMark,
+    free: CheckMarkColor,
+    basics: CheckMarkColor,
+    professional: CheckMarkColor,
   },
   {
     access: "Access video Link",
     free: CloseMark,
-    basics: CheckMark,
-    professional: CheckMark,
+    basics: CheckMarkColor,
+    professional: CheckMarkColor,
   },
   {
     access: "Full diet plan",
     free: CloseMark,
-    basics: CheckMark,
-    professional: CheckMark,
+    basics: CheckMarkColor,
+    professional: CheckMarkColor,
   },
   {
     access: "Nutritional support",
     free: CloseMark,
-    basics: CheckMark,
-    professional: CheckMark,
+    basics: CheckMarkColor,
+    professional: CheckMarkColor,
   },
   {
     access: "Full customize plan",
     free: CloseMark,
     basics: CloseMark,
-    professional: CheckMark,
+    professional: CheckMarkColor,
   },
   {
     access: "Daily progress check up",
     free: CloseMark,
     basics: CloseMark,
-    professional: CheckMark,
+    professional: CheckMarkColor,
   },
   {
     access: "All Intermediate package",
     free: CloseMark,
     basics: CloseMark,
-    professional: CheckMark,
+    professional: CheckMarkColor,
   },
 ];
 

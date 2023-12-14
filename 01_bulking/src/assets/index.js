@@ -10,6 +10,7 @@ import Blog_4 from "./blog_4.png";
 import Blog_5 from "./blog_5.png";
 import CheckMark from "./check_mark.svg";
 import CheckMarkColor from "./check_mark_green.svg";
+import CheckMarkLight from "./check_mark_light.svg";
 import CloseMark from "./close_mark.svg";
 import Close from "./close.svg";
 import ColorLogo from "./colorLogo.svg";
@@ -27,6 +28,7 @@ import Image_1 from "./image_1.png";
 import Image_2 from "./image_2.png";
 import Image_3 from "./image_3.png";
 import Image_4 from "./image_4.png";
+import Info from "./info.svg";
 import Logo from "./Logo.svg";
 import Menu from "./menu.svg";
 import Minus from "./minus.svg";
@@ -60,6 +62,7 @@ export {
   Blog_5,
   CheckMark,
   CheckMarkColor,
+  CheckMarkLight,
   CloseMark,
   Close,
   ColorLogo,
@@ -77,6 +80,7 @@ export {
   Image_2,
   Image_3,
   Image_4,
+  Info,
   Logo,
   Menu,
   Minus,

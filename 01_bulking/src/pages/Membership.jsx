@@ -1,6 +1,11 @@
 import React from "react";
-import { Reviews, MembershipItems, SectionHeading } from "../components";
-import { CheckMark, CheckMarkColor } from "../assets";
+import {
+  Reviews,
+  MembershipItems,
+  SectionHeading,
+  Overview,
+} from "../components";
+import { CheckMark, CheckMarkLight } from "../assets";
 import { plans } from "../constants";
 import styles from "../styles";
 
@@ -15,7 +20,7 @@ const Membership = () => {
       const spanClasses = `${isEven ? "text-[#C7C7CC]" : "text-[#AEAEB2]"}`;
       const contentClasses = `${isEven ? "text-[#F2F2F7]" : "text-[#3A3A3C]"}`;
       const planTypeClasses = `${isEven ? "text-white" : "text-[#064BB4]"}`;
-      const imgUrl = `${isEven ? CheckMarkColor : CheckMark}`;
+      const imgUrl = `${isEven ? CheckMarkLight : CheckMark}`;
 
       return (
         <MembershipItems
@@ -46,6 +51,7 @@ const Membership = () => {
       <div className="flex flex-wrap justify-center gap-10 py-12">
         {renderMembershipItems()}
       </div>
+      <Overview />
       <Reviews />
     </main>
   );

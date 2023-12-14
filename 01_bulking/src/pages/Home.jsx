@@ -1,6 +1,6 @@
 import React from "react";
 import { CTA, Reviews, MembershipItems } from "../components";
-import { CheckMark, CheckMarkColor } from "../assets";
+import { CheckMark, CheckMarkLight } from "../assets";
 import { plans } from "../constants";
 import styles from "../styles";
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
       const textClasses = `${isEven ? "text-white" : "text-primary"}`;
       const spanClasses = `${isEven ? "text-[#C7C7CC]" : "text-[#AEAEB2]"}`;
       const planTypeClasses = `${isEven ? "text-white" : "text-[#064BB4]"}`;
-      const imgUrl = `${isEven ? CheckMarkColor : CheckMark}`;
+      const imgUrl = `${isEven ? CheckMarkLight : CheckMark}`;
 
       return (
         <MembershipItems
