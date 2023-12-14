@@ -9,6 +9,7 @@ import Blog_3 from "./blog_3.png";
 import Blog_4 from "./blog_4.png";
 import Blog_5 from "./blog_5.png";
 import CheckMark from "./check_mark.svg";
+import CheckMarkColor from "./check_mark_green.svg";
 import CloseMark from "./close_mark.svg";
 import Close from "./close.svg";
 import ColorLogo from "./colorLogo.svg";
@@ -58,6 +59,7 @@ export {
   Blog_4,
   Blog_5,
   CheckMark,
+  CheckMarkColor,
   CloseMark,
   Close,
   ColorLogo,

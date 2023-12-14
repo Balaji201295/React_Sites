@@ -129,6 +129,8 @@ export const plans = [
   {
     price: 0,
     planType: "Free Plan",
+    content:
+      "It’s a long established fact that a reader will be distracted by the readable content",
     points: [
       "1 classes per month",
       "Access to online classes",
@@ -138,6 +140,8 @@ export const plans = [
   {
     price: 149,
     planType: "Basic Plan",
+    content:
+      "It’s a long established fact that a reader will be distracted by the readable content",
     points: [
       "8 classes per month",
       "All in basic package",
@@ -147,6 +151,8 @@ export const plans = [
   {
     price: 289,
     planType: "Professional Plan",
+    content:
+      "It’s a long established fact that a reader will be distracted by the readable content",
     points: [
       "20 classes per month",
       "All in Intermediate package",
