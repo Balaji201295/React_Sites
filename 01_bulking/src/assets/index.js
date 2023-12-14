@@ -1,6 +1,6 @@
 import AboutMe from "./aboutMe.png";
 import AppleWatch from "./apple-watch.svg";
-import ApplePay from "./applePay.png";
+import ApplePay from "./applepay.svg";
 import Banner from "./banner.png";
 import Biceps from "./biceps.svg";
 import Blog_1 from "./blog_1.png";
@@ -12,6 +12,7 @@ import CheckMark from "./check_mark.svg";
 import CloseMark from "./close_mark.svg";
 import Close from "./close.svg";
 import ColorLogo from "./colorLogo.svg";
+import CreditCard from "./creditCard.png";
 import Davis from "./davis.svg";
 import Dot from "./dot.svg";
 import Dumbbell_1 from "./dumbbell_1.svg";
@@ -30,7 +31,7 @@ import Menu from "./menu.svg";
 import Minus from "./minus.svg";
 import NewBalance from "./new-balance.svg";
 import Nike from "./nike.svg";
-import Paypal from "./paypal.png";
+import Paypal from "./paypal.svg";
 import Plus from "./plus.svg";
 import Quote from "./quote.svg";
 import SlimWaist from "./slim-waist.svg";
@@ -60,6 +61,7 @@ export {
   CloseMark,
   Close,
   ColorLogo,
+  CreditCard,
   Davis,
   Dot,
   Dumbbell_1,

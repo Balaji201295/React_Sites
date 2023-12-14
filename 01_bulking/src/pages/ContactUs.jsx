@@ -107,7 +107,10 @@ const ContactUs = () => {
                 {contactDetails.map((item, index) => {
                   const IconImg = item.icon;
                   return (
-                    <div className="flex gap-4 justify-start items-center">
+                    <div
+                      key={index}
+                      className="flex gap-4 justify-start items-center"
+                    >
                       <div className="w-12 h-12 flex justify-center items-center border border-solid border-[#BDC7F4] rounded-[24px] text-black">
                         <IconImg className="w-4 h-4" />
                       </div>

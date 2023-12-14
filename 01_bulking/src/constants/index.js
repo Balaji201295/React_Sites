@@ -129,29 +129,29 @@ export const plans = [
   {
     price: 0,
     planType: "Free Plan",
-    points: {
-      point_1: "1 classes per month",
-      point_2: "Access to online classes",
-      point_3: "10 health & fitness guides",
-    },
+    points: [
+      "1 classes per month",
+      "Access to online classes",
+      "10 health & fitness guides",
+    ],
   },
   {
     price: 149,
     planType: "Basic Plan",
-    points: {
-      point_1: "8 classes per month",
-      point_2: "All in basic package",
-      point_3: "1-on-1 personal training",
-    },
+    points: [
+      "8 classes per month",
+      "All in basic package",
+      "1-on-1 personal training",
+    ],
   },
   {
     price: 289,
     planType: "Professional Plan",
-    points: {
-      point_1: "20 classes per month",
-      point_2: "All in Intermediate package",
-      point_3: "Access to my online tutorials",
-    },
+    points: [
+      "20 classes per month",
+      "All in Intermediate package",
+      "Access to my online tutorials",
+    ],
   },
 ];
 

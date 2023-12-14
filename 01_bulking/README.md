@@ -25,6 +25,7 @@ const IconImg = item.icon;
 3. Privacy and Policy
 4. Trainers
 5. FAQ
+6. Payment
 
 // finishing components
 

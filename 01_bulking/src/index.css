@@ -9,6 +9,25 @@
 * {
   scroll-behavior: smooth;
 }
+
+/* hide the select arrow */
+select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+/* For IE10 */
+select::-ms-expand {
+  display: none;
+}
 nav ul li {
   position: relative;
 }
