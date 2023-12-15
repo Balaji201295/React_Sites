@@ -9,6 +9,9 @@
 * {
   scroll-behavior: smooth;
 }
+body {
+  background-color: #f9f9fb;
+}
 
 /* hide the select arrow */
 select {

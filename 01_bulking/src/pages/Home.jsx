@@ -32,7 +32,7 @@ const Home = () => {
     });
   };
   return (
-    <main className={`bg-[#F9F9FB]`}>
+    <main>
       <Reviews />
       <div className="flex flex-wrap justify-center gap-10 py-12">
         {renderMembershipItems()}

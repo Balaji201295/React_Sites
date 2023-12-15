@@ -23,9 +23,13 @@ const IconImg = item.icon;
 1. Error page
 2. Terms and Conditions
 3. Privacy and Policy
-4. Trainers
-5. FAQ
+4. FAQ
+5. Trainers
 6. Payment
+7. Membership
+8. Membership Details
+9. Contact us
+10. Programs
 
 // finishing components
 

@@ -3,7 +3,7 @@ import styles from "../styles";
 import { trainers, coreWorks } from "../constants";
 import { CTA, PageHeading, SectionIntro } from "../components";
 const Trainers = () => (
-  <main className="bg-[#F9F9FB]">
+  <main>
     <div className={`${styles.padding} max-w-[926px] mx-auto`}>
       <PageHeading
         title="Meet"

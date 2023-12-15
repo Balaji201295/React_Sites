@@ -1,6 +1,7 @@
 import AboutMe from "./aboutMe.png";
 import AppleWatch from "./apple-watch.svg";
 import ApplePay from "./applepay.svg";
+import ArrowRight from "./arrow-right.svg";
 import Banner from "./banner.png";
 import Biceps from "./biceps.svg";
 import Blog_1 from "./blog_1.png";
@@ -53,6 +54,7 @@ export {
   AboutMe,
   AppleWatch,
   ApplePay,
+  ArrowRight,
   Banner,
   Biceps,
   Blog_1,

@@ -41,7 +41,7 @@ const Membership = () => {
 
   return (
     <main
-      className={`${styles.paddingX} bg-[#F9F9FB] flex flex-col justify-center items-center pt-16`}
+      className={`${styles.paddingX} flex flex-col justify-center items-center pt-16`}
     >
       <SectionHeading
         heading="Membership"

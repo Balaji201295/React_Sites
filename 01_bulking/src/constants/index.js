@@ -84,6 +84,7 @@ export const programs = [
   {
     icon: Biceps,
     title: "Personal Training",
+    navigation: "/program-details",
     content:
       "It’s a long established fact that a reader will be distracted by the readable content",
   },
@@ -140,6 +141,7 @@ export const plans = [
   {
     price: 149,
     planType: "Basic Plan",
+    navigation: "/membership-details",
     content:
       "It’s a long established fact that a reader will be distracted by the readable content",
     points: [
