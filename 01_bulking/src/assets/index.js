@@ -49,6 +49,7 @@ import Team_6 from "./team_6.png";
 import Timer from "./timer.svg";
 import VideoImg from "./video_image.png";
 import Video from "./video.svg";
+import Workout from "./workout.mp4";
 
 export {
   AboutMe,
@@ -102,4 +103,5 @@ export {
   Timer,
   VideoImg,
   Video,
+  Workout,
 };

@@ -10,7 +10,7 @@ const PageHeading = ({
   fontStyle,
 }) => (
   <div className="mb-8 sm:mb-12">
-    <h1 className={` ${styles.pageHeading} ${align} ${fontStyle}`}>
+    <h1 className={`${styles.pageHeading} ${align} ${fontStyle}`}>
       {title}&nbsp;<span className="font-normal">{titleSpan}</span>
     </h1>
     <p
