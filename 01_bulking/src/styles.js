@@ -8,7 +8,7 @@ const styles = {
 
   // heading typography
   heading:
-    "font-sans font-semibold sm:text-[40px] text-[32px] text-heading sm:leading-[48px] leading-[40px] w-full",
+    "font-sans font-semibold text-[24px] sm:text-[40px] text-[32px] text-heading sm:leading-[48px] leading-[40px] w-full",
 
   // paragraph typography
   paragraph:

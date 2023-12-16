@@ -10,6 +10,7 @@ import {
   HeartCheck,
   Heart_White,
   Image_1,
+  Image_2,
   Image_3,
   Image_4,
   NewBalance,
@@ -106,23 +107,19 @@ export const sessions = [
   {
     icon: Biceps,
     title: "Crush any strength program with our suite of strength equipment",
-    points: {
-      point_1: "Fully fitted power lifting and strongman section",
-      point_2: "Olympic lifting platforms, weights, and bars",
-      point_3: "Dumbbells ranging 5lbs-250lbs",
-    },
+    points: [
+      "Fully fitted power lifting and strongman section",
+      "Olympic lifting platforms, weights, and bars",
+      "Dumbbells ranging 5lbs-250lbs",
+    ],
     imgUrl: Image_1,
   },
   {
     icon: HeartCheck,
     title:
       "Be guided every step of the way with one of our world class coaches",
-    points: {
-      point_1: "Weight loss",
-      point_2: "Competitive CrossFit",
-      point_3: "Power lifting",
-    },
-    imgUrl: Image_3,
+    points: ["Weight loss", "Competitive CrossFit", "Power lifting"],
+    imgUrl: Image_2,
   },
 ];
 
@@ -326,31 +323,6 @@ export const personalTrainingSpecs = [
     icon: Dumbbell_2,
     value: 3,
     title: "Super Body Toning",
-  },
-];
-
-export const personalTrainingInfo = [
-  {
-    question: "What is this class about?",
-    answer:
-      "Pretium sed tempor vestibulum sit urna. Potenti purus sodales in enim nunc. In et auctor fusce sit donec condimentum. Diam ultrices enim nunc ornare id aliquet sed arcu commodo. Aliquam morbi fermentum amet dui ullamcorper praesent elit. Viverra nam massa cursus leo blandit eget eu. Tempor enim neque metus nunc sodales at eros. Malesuada placerat vestibulum amet sit tempor mi dignissim. Feugiat nullam urna gravida vulputate mi eleifend laoreet. ",
-  },
-  {
-    question: "Is this the right fitness class for me?",
-    answer:
-      "Viverra urna imperdiet non malesuada. In massa id tellus natoque augue in et, et. Suspendisse feugiat scelerisque et, viverra urna imperdiet.Vitae interdum quis lacus ut viverra.",
-    points: {
-      point_1:
-        "1. Enim eu turpis egestas pretium aenean pharetra magna ac placerat.",
-      point_2: "2. Nunc semper velit netus donec commodo.",
-      point_3:
-        "3. Lacus hendrerit aliquam habitant eget faucibus venenatis turpis",
-    },
-  },
-  {
-    question: "How can I take a trial class?",
-    answer:
-      "Diam ultrices enim nunc ornare id aliquet sed arcu commodo. Aliquam morbi fermentum amet dui ullamcorper praesent elit. Viverra nam massa cursus leo blandit eget eu. Tempor enim neque metus nunc sodales at eros. Malesuada placerat vestibulum amet sit tempor mi dignissim. Feugiat nullam urna gravida vulputate mi eleifend laoreet. ",
   },
 ];
 
