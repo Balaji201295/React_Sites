@@ -18,7 +18,7 @@ const ProgramItems = () => {
           ? "lg:rounded-tr-3xl lg:rounded-br-3xl rounded-bl-3xl rounded-br-3xl sm:rounded-none"
           : ""
       }`;
-      const columnClasses = `flex-1 flex flex-col min-w-[271px] sm:max-w-[291px] p-6 gap-6 ${borderRadiusClasses} ${
+      const columnClasses = `flex-1 flex flex-col w-full sm:max-w-[291px] p-6 gap-6 ${borderRadiusClasses} ${
         isEven ? "bg-primary" : "bg-white"
       }`;
 

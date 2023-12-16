@@ -1,10 +1,11 @@
 import React from "react";
-import { Reviews } from "../components";
+import { Hero, Reviews } from "../components";
 import { workouts } from "../constants";
 import styles from "../styles";
 const AboutUs = () => {
   return (
     <main>
+      <Hero />
       <div
         className={`flex flex-col justify-center items-center py-16 sm:py-32 ${styles.paddingX}`}
       >
