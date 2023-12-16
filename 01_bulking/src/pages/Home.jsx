@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Header,
   CTA,
   Reviews,
   MembershipItems,
@@ -39,6 +40,7 @@ const Home = () => {
   };
   return (
     <main>
+      <Header />
       <div
         className={`flex flex-col justify-center items-center py-16 sm:py-32 ${styles.paddingX}`}
       >

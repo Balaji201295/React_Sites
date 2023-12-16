@@ -137,7 +137,6 @@ const Navbar = () => {
           <div className="md:hidden flex flex-col justify-end items-center gap-9">
             <div className="flex justify-end items-center gap-4 mt-8">
               <Button
-                type="button"
                 text="Log In"
                 width="w-[80px]"
                 height="h-[40px]"
@@ -145,7 +144,6 @@ const Navbar = () => {
                 textColor="text-white hover:text-[#064BB4]"
               />
               <Button
-                type="button"
                 text="Sign Up"
                 width="w-[80px]"
                 height="h-[40px]"

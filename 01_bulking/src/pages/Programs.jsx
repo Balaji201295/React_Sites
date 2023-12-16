@@ -1,8 +1,13 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { PageHeading, Reviews, SectionHeading, Button } from "../components";
-import { Minus, Plus, ArrowRight } from "../assets";
-import { programs, Faqs } from "../constants";
+import {
+  PageHeading,
+  Reviews,
+  SectionHeading,
+  Button,
+  ProgramItems,
+} from "../components";
+import { Minus, Plus } from "../assets";
+import { Faqs } from "../constants";
 import styles from "../styles";
 
 const Programs = () => {
@@ -36,43 +41,6 @@ const Programs = () => {
       </div>
     ));
 
-  const renderPrograms = () =>
-    programs.map(({ icon, title, content }, index) => {
-      const isEven = index % 2 === 1;
-      const columnClasses = `flex-1 flex flex-col min-w-[291px] sm:max-w-[291px] p-6 gap-6 ${
-        isEven ? "bg-primary" : "bg-transparent"
-      }`;
-
-      return (
-        <div key={index} className={columnClasses}>
-          <Link
-            to={
-              title === "Personal Training" ? "/program-details" : "/programs"
-            }
-            className={
-              title === "Personal Training"
-                ? "cursor-pointer"
-                : "cursor-default"
-            }
-          >
-            <img src={icon} alt={title} className="w-12 h-12" />
-            <div className="flex flex-col gap-3">
-              <h3 className="font-sans text-primary text-xl font-semibold tracking-[.01px]">
-                {title}
-              </h3>
-              <p className={styles.paragraph}>{content}</p>
-            </div>
-          </Link>
-          <div className="flex items-center font-sans text-primary text-sm font-semibold tracking-[.01px]">
-            <a href="#" className="flex">
-              Learn More&nbsp;
-              <img src={ArrowRight} alt="Learn More" />
-            </a>
-          </div>
-        </div>
-      );
-    });
-
   return (
     <main
       className={`${styles.padding} flex flex-col justify-center items-center`}
@@ -82,7 +50,9 @@ const Programs = () => {
         title="Browse Our Available Programs"
         maxWidth="max-w-[426px]"
       />
-      <div className="flex flex-wrap">{renderPrograms()}</div>
+      <div className="flex flex-wrap">
+        <ProgramItems />
+      </div>
       <div className="w-full flex flex-col sm:flex-row pt-20 sm:pt-32">
         <div className="flex-[0.75] mb-12 sm:mb-0">
           <PageHeading
