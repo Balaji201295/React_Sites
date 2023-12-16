@@ -29,6 +29,7 @@ import Image_1 from "./image_1.png";
 import Image_2 from "./image_2.png";
 import Image_3 from "./image_3.png";
 import Image_4 from "./image_4.png";
+import Image_5 from "./image_5.png";
 import Info from "./info.svg";
 import Logo from "./Logo.svg";
 import Menu from "./menu.svg";
@@ -83,6 +84,7 @@ export {
   Image_2,
   Image_3,
   Image_4,
+  Image_5,
   Info,
   Logo,
   Menu,

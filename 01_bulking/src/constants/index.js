@@ -13,6 +13,7 @@ import {
   Image_2,
   Image_3,
   Image_4,
+  Image_5,
   NewBalance,
   Nike,
   SlimWaist,
@@ -253,36 +254,6 @@ export const socialMedia = [
   },
 ];
 
-// programs
-
-export const programFaqs = [
-  {
-    question: "Do I need previous experience for your classes?",
-    content:
-      " Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. ",
-  },
-  {
-    question: "Do you offer a trial class for any of your classes?",
-    content:
-      " Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. ",
-  },
-  {
-    question: "How long is the class duration?",
-    content:
-      " Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. ",
-  },
-  {
-    question: "Do you offer on-site classes, or just virtual classes?",
-    content:
-      " Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. ",
-  },
-  {
-    question: "Do you offer 1-on-1 classes and personal training?",
-    content:
-      " Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. ",
-  },
-];
-
 // program detail
 
 export const programDetails = [
@@ -413,21 +384,21 @@ export const workouts = [
     title: "Commitment",
     content:
       "Cras tellus ac dui at sed. Suspendisse feugiat scelerisque et, viverra urna imperdiet non malesuada. Inol massa id tellus natoque augue in et.",
-    imgUrl: Image_1,
+    imgUrl: Image_3,
   },
   {
     icon: HeartCheck,
     title: "Motivation",
     content:
       "Cras tellus ac dui at sed. Suspendisse feugiat scelerisque et, viverra urna imperdiet non malesuada. Inol massa id tellus natoque augue in et.",
-    imgUrl: Image_3,
+    imgUrl: Image_4,
   },
   {
     icon: Star,
     title: "Passion",
     content:
       "Cras tellus ac dui at sed. Suspendisse feugiat scelerisque et, viverra urna imperdiet non malesuada. Inol massa id tellus natoque augue in et.",
-    imgUrl: Image_4,
+    imgUrl: Image_5,
   },
 ];
 
