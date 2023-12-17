@@ -12,7 +12,7 @@ const styles = {
 
   // paragraph typography
   paragraph:
-    "font-sans font-normal text-secondary text-[12px] sm:text-[16px] leading-[20px] sm:leading-[24px] tracking-[0.08px]",
+    "font-sans font-normal text-secondary text-[12px] sm:text-[14px] md:text-[16px] leading-[20px] sm:leading-[24px] tracking-[0.08px]",
 
   // flex-center
   flexCenter: "flex justify-center items-center",

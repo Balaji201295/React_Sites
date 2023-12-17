@@ -5,8 +5,8 @@ import App from "./App.jsx";
 import "./index.css";
 import {
   AboutUs,
-  BlogDetails,
   Blogs,
+  SingleBlog,
   ContactUs,
   ErrorPage,
   FAQ,
@@ -36,10 +36,11 @@ const router = createBrowserRouter([
         element: <Blogs />,
       },
       {
-        path: "/blog-details",
-        element: <BlogDetails />,
+        path: "/blogs/:id",
+        element: <SingleBlog />,
+        loader: ({ params }) =>
+          fetch(`http://localhost:5000/blogs/${params.id}`),
       },
-
       {
         path: "/contact-us",
         element: <ContactUs />,

@@ -1,6 +1,11 @@
 import {
   AppleWatch,
   Biceps,
+  Blog_1,
+  Blog_2,
+  Blog_3,
+  Blog_4,
+  Blog_5,
   CheckMarkColor,
   CloseMark,
   Davis,
@@ -559,7 +564,7 @@ export const coreWorks = [
   },
 ];
 
-export const Faqs = [
+export const FaqsData = [
   {
     question: "Do I need previous experience for your classes?",
     answer:

@@ -1,0 +1,100 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "category": "Fitness",
+            "title": "The interesting mental health benefits of exercise",
+            "image": "../src/assets/blog_1.png",
+            "published_date": "Jan 02, 2022",
+            "content": "Porta purus vel volutpat id facilisis sem. Rhoncus vitae potenti tellus maecenas pellentesque viverra suspendisse. Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. "
+        },
+        {
+            "id": 2,
+            "category": "Health",
+            "title": "The 5 effective fitness morning routines you should follow",
+            "image": "../src/assets/blog_2.png",
+            "published_date": "Feb 06, 2022",
+            "content": "Porta purus vel volutpat id facilisis sem. Rhoncus vitae potenti tellus maecenas pellentesque viverra suspendisse. Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. "
+        },
+        {
+            "id": 3,
+            "category": "Recipes",
+            "title": "14 strength-specific training exercises you can do today",
+            "image": "../src/assets/blog_3.png",
+            "published_date": "March 10, 2022",
+            "content": "Porta purus vel volutpat id facilisis sem. Rhoncus vitae potenti tellus maecenas pellentesque viverra suspendisse. Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. "
+        },
+        {
+            "id": 4,
+            "category": "Fitness",
+            "title": "The interesting mental health benefits of exercise",
+            "image": "../src/assets/blog_4.png",
+            "published_date": "April 12, 2022",
+            "content": "Porta purus vel volutpat id facilisis sem. Rhoncus vitae potenti tellus maecenas pellentesque viverra suspendisse. Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. "
+        },
+        {
+            "id": 5,
+            "category": "Health",
+            "title": "The 5 effective fitness morning routines you should follow",
+            "image": "../src/assets/blog_5.png",
+            "published_date": "May 16, 2022",
+            "content": "Porta purus vel volutpat id facilisis sem. Rhoncus vitae potenti tellus maecenas pellentesque viverra suspendisse. Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. "
+        },
+        {
+            "id": 6,
+            "category": "Recipes",
+            "title": "14 strength-specific training exercises you can do today",
+            "image": "../src/assets/blog_2.png",
+            "published_date": "June 20, 2022",
+            "content": "Porta purus vel volutpat id facilisis sem. Rhoncus vitae potenti tellus maecenas pellentesque viverra suspendisse. Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. "
+        },
+        {
+            "id": 7,
+            "category": "Health",
+            "title": "The interesting mental health benefits of exercise",
+            "image": "../src/assets/blog_1.png",
+            "published_date": "July 22, 2022",
+            "content": "Porta purus vel volutpat id facilisis sem. Rhoncus vitae potenti tellus maecenas pellentesque viverra suspendisse. Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. "
+        },
+        {
+            "id": 8,
+            "category": "Fitness",
+            "title": "The 5 effective fitness morning routines you should follow",
+            "image": "../src/assets/blog_2.png",
+            "published_date": "Aug 24, 2022",
+            "content": "Porta purus vel volutpat id facilisis sem. Rhoncus vitae potenti tellus maecenas pellentesque viverra suspendisse. Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. "
+        },
+        {
+            "id": 9,
+            "category": "Recipes",
+            "title": "14 strength-specific training exercises you can do today",
+            "image": "../src/assets/blog_3.png",
+            "published_date": "Sep 13, 2022",
+            "content": "Porta purus vel volutpat id facilisis sem. Rhoncus vitae potenti tellus maecenas pellentesque viverra suspendisse. Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. "
+        },
+        {
+            "id": 10,
+            "category": "Health",
+            "title": "The interesting mental health benefits of exercise",
+            "image": "../src/assets/blog_4.png",
+            "published_date": "Oct 19, 2022",
+            "content": "Porta purus vel volutpat id facilisis sem. Rhoncus vitae potenti tellus maecenas pellentesque viverra suspendisse. Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. "
+        },
+        {
+            "id": 11,
+            "category": "Fitness",
+            "title": "The 5 effective fitness morning routines you should follow",
+            "image": "../src/assets/blog_5.png",
+            "published_date": "Nov 28, 2022",
+            "content": "Porta purus vel volutpat id facilisis sem. Rhoncus vitae potenti tellus maecenas pellentesque viverra suspendisse. Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. "
+        },
+        {
+            "id": 12,
+            "category": "Recipes",
+            "title": "14 strength-specific training exercises you can do today",
+            "image": "../src/assets/blog_2.png",
+            "published_date": "Dec 01, 2022",
+            "content": "Porta purus vel volutpat id facilisis sem. Rhoncus vitae potenti tellus maecenas pellentesque viverra suspendisse. Convallis quis sem nulla ipsum sed enim quam ultricies vivamus. Dictum vehicula amet tristique imperdiet. Aliquam nullam quis aenean arcu blandit non sit amet dui. "
+        }
+    ]
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles";
 import Button from "./Button";
+
 const CTA = () => (
   <section
     className={`${styles.padding} bg-secondary flex sm:flex-row flex-col justify-between items-center gap-12`}
@@ -23,4 +24,5 @@ const CTA = () => (
     />
   </section>
 );
+
 export default CTA;
