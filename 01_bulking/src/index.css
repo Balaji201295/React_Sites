@@ -88,6 +88,21 @@ nav ul li a.active::after {
   color: #fff;
 }
 
+.ReactModal__Overlay {
+  z-index: 9999;
+  background-color: transparent !important;
+  background: rgba(9, 8, 13, 0.12);
+  backdrop-filter: blur(10px);
+}
+.ReactModal__Content {
+  max-width: 596px;
+  height: max-content;
+  border-radius: 24px !important;
+  margin: auto;
+  position: relative;
+  overflow: unset !important;
+}
+
 @-webkit-keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);

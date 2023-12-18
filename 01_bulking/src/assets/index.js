@@ -1,4 +1,5 @@
 import AboutMe from "./aboutMe.png";
+import Apple_Login from "./apple_login.svg";
 import AppleWatch from "./apple-watch.svg";
 import ApplePay from "./applepay.svg";
 import ArrowRight from "./arrow-right.svg";
@@ -22,6 +23,7 @@ import Dumbbell_1 from "./dumbbell_1.svg";
 import Dumbbell_2 from "./dumbbell_2.svg";
 import Esprit from "./esprit.svg";
 import FitnessBiceps from "./fitness-biceps.svg";
+import Google_Login from "./google_login.svg";
 import Health from "./health.svg";
 import Heart_White from "./heart_white.svg";
 import HeartCheck from "./heart-check.svg";
@@ -31,6 +33,7 @@ import Image_3 from "./image_3.png";
 import Image_4 from "./image_4.png";
 import Image_5 from "./image_5.png";
 import Info from "./info.svg";
+import Logo_Modal from "./logo_modal.svg";
 import Logo from "./Logo.svg";
 import Menu from "./menu.svg";
 import Minus from "./minus.svg";
@@ -54,6 +57,7 @@ import Workout from "./workout.mp4";
 
 export {
   AboutMe,
+  Apple_Login,
   AppleWatch,
   ApplePay,
   ArrowRight,
@@ -77,6 +81,7 @@ export {
   Dumbbell_2,
   Esprit,
   FitnessBiceps,
+  Google_Login,
   Health,
   Heart_White,
   HeartCheck,
@@ -86,6 +91,7 @@ export {
   Image_4,
   Image_5,
   Info,
+  Logo_Modal,
   Logo,
   Menu,
   Minus,

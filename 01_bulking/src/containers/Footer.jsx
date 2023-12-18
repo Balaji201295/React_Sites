@@ -31,7 +31,7 @@ const Footer = () => (
         <form className="flex flex-col xs:flex-row gap-6">
           <input
             type="email"
-            id="email"
+            id="emailId"
             placeholder="Your email here"
             required
             className={`${styles.paragraph} w-full xs:max-w-[240px] text-[#CBCBCB] text-[14px] rounded-[32px] py-3 sm:py-4 px-4 sm:px-8 bg-white/[0.12] outline-none border-none`}

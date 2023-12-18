@@ -6,6 +6,7 @@ import { Logo, ColorLogo } from "../assets";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { FiShoppingCart } from "react-icons/fi";
 import styles from "../styles";
+import AuthModal from "../modalPages/AuthModal";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -83,22 +84,8 @@ const Navbar = () => {
             <span className="text-[8px] text-white">2</span>
           </div>
         </div>
-        <div className="flex justify-end items-center gap-6">
-          <Button
-            type="button"
-            text="Log In"
-            width="w-[83px] "
-            height="h-[46px]"
-            textColor={buttonStyles.textColor}
-            borderColor={buttonStyles.borderColor}
-          />
-          <Button
-            type="button"
-            text="Sign Up"
-            width="w-[83px]"
-            height="h-[46px]"
-            bgColor={buttonStyles.bgColor}
-          />
+        <div className="flex justify-end items-center">
+          <AuthModal />
         </div>
       </div>
       {/* responsive navbar */}
@@ -120,7 +107,7 @@ const Navbar = () => {
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } flex-col p-6 absolute top-20 sm:right-[6vw] right-[2vw] mx-4 my-2 min-w-[140px] rounded-xl bg-[#064BB4] sidebar`}
+          } flex-col p-6 absolute top-20 sm:right-[6vw] right-[2vw] mx-4 my-2 min-w-[140px] rounded-xl bg-[#064BB4] sidebar z-20 shadow-2xl`}
         >
           <ul className="md:hidden flex flex-col list-none justify-end items-end capitalize">
             {navItems.map((item, index) => (
@@ -130,25 +117,18 @@ const Navbar = () => {
                   index !== navItems.length - 1 ? "mb-4" : "mb-0"
                 }`}
               >
-                <a href={`${item.id}`}>{item.title}</a>
+                <NavLink to={item.id} onClick={() => setToggle(false)}>
+                  {item.title}
+                </NavLink>
               </li>
             ))}
           </ul>
           <div className="md:hidden flex flex-col justify-end items-center gap-9">
-            <div className="flex justify-end items-center gap-4 mt-8">
-              <Button
-                text="Log In"
-                width="w-[80px]"
-                height="h-[40px]"
-                bgColor="bg-transparent hover:bg-white"
-                textColor="text-white hover:text-[#064BB4]"
-              />
-              <Button
-                text="Sign Up"
-                width="w-[80px]"
-                height="h-[40px]"
-                bgColor={buttonStyles.bgColor}
-              />
+            <div
+              className="flex justify-end items-center gap-4 mt-8"
+              onClick={() => setToggle(false)}
+            >
+              <AuthModal />
             </div>
           </div>
         </div>
