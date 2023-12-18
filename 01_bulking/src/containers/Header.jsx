@@ -1,5 +1,6 @@
 import React from "react";
-import { Button, Brands, ProgramItems } from "../components";
+import { Button, Brands } from "../components";
+import { ProgramItems } from "../containers";
 import styles from "../styles";
 import { Banner } from "../assets";
 

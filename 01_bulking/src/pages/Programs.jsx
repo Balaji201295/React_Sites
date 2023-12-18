@@ -1,12 +1,6 @@
 import React from "react";
-import {
-  PageHeading,
-  Reviews,
-  SectionHeading,
-  Button,
-  ProgramItems,
-  FAQs,
-} from "../components";
+import { PageHeading, SectionHeading, Button } from "../components";
+import { Reviews, ProgramItems, FAQs } from "../containers";
 import { FaqsData } from "../constants";
 import styles from "../styles";
 

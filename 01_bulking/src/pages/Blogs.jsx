@@ -1,5 +1,6 @@
 import React from "react";
-import { CTA, SectionHeading, BlogPage } from "../components";
+import { SectionHeading } from "../components";
+import { CTA, BlogPage } from "../containers";
 import styles from "../styles";
 
 const Blogs = () => {

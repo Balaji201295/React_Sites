@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles";
 import { Outlet } from "react-router-dom";
-import { Navbar, Footer } from "./components";
+import { Navbar, Footer } from "./containers";
 
 function App() {
   return (

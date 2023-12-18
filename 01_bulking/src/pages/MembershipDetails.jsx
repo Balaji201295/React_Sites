@@ -1,11 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import {
-  Reviews,
-  PageHeading,
-  Button,
-  PersonalTrainingInfo,
-} from "../components";
+import { PageHeading, Button, PersonalTrainingInfo } from "../components";
+import { Reviews } from "../containers";
 import styles from "../styles";
 import { packageDetails } from "../constants";
 import { CheckMark } from "../assets";

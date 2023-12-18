@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react";
-import {
-  BlogCards,
-  CategorySelection,
-  FeaturedBlogs,
-  Pagination,
-} from "../components";
+import { CategorySelection, Pagination } from "../components";
+import { BlogCards, FeaturedBlogs } from "../containers";
 
 const BlogPage = () => {
   const [blogs, setBlogs] = useState([]); // blog content

@@ -1,10 +1,6 @@
 import React from "react";
-import {
-  Reviews,
-  MembershipItems,
-  SectionHeading,
-  Overview,
-} from "../components";
+import { SectionHeading } from "../components";
+import { Reviews, MembershipItems, Overview } from "../containers";
 import { CheckMark, CheckMarkLight } from "../assets";
 import { plans } from "../constants";
 import styles from "../styles";

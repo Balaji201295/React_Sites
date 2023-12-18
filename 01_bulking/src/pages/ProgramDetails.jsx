@@ -1,11 +1,7 @@
 import React from "react";
 import { useState, useRef, useEffect } from "react";
-import {
-  Reviews,
-  PageHeading,
-  Button,
-  PersonalTrainingInfo,
-} from "../components";
+import { PageHeading, Button, PersonalTrainingInfo } from "../components";
+import { Reviews } from "../containers";
 import styles from "../styles";
 import { programDetails } from "../constants";
 import { Workout } from "../assets";

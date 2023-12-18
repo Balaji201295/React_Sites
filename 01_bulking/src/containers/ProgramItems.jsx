@@ -25,9 +25,7 @@ const ProgramItems = () => {
       return (
         <div key={index} className={columnClasses}>
           <Link
-            to={
-              title === "Personal Training" ? "/program-details" : "/programs"
-            }
+            to={title === "Personal Training" ? "/program-details" : ""}
             className={
               title === "Personal Training"
                 ? "cursor-pointer"

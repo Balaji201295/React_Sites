@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "../styles";
 import { trainers, coreWorks } from "../constants";
-import { CTA, PageHeading, SectionIntro } from "../components";
+import { CTA } from "../containers";
+import { PageHeading, SectionIntro } from "../components";
 const Trainers = () => (
   <main>
     <div className={`${styles.padding} max-w-[926px] mx-auto`}>

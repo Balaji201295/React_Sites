@@ -1,5 +1,5 @@
 import React from "react";
-import { CoreWorks, Hero, Reviews } from "../components";
+import { CoreWorks, Hero, Reviews } from "../containers";
 
 import styles from "../styles";
 const AboutUs = () => {

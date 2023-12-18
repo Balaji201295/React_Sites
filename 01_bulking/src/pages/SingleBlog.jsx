@@ -1,5 +1,6 @@
 import React from "react";
-import { NotFound, Reviews, Sidebar } from "../components";
+import { CTA, Reviews, Sidebar } from "../containers";
+import { NotFound } from "../components";
 import { useLoaderData } from "react-router-dom";
 import styles from "../styles";
 const SingleBlog = () => {
@@ -38,6 +39,7 @@ const SingleBlog = () => {
         </div>
       </div>
       <Reviews />
+      <CTA />
     </main>
   );
 };

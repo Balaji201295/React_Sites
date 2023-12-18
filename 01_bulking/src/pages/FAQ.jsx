@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { PageHeading, Button, FAQs } from "../components";
+import { PageHeading, Button } from "../components";
+import { FAQs } from "../containers";
 import { FaqsData } from "../constants";
 import styles from "../styles";
 
