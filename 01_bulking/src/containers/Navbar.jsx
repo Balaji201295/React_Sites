@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Button } from "../components";
 import { navItems } from "../constants";
 import { useLocation, NavLink, Link } from "react-router-dom";
@@ -10,8 +10,21 @@ import AuthModal from "../modalPages/AuthModal";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  const [scrolling, setScrolling] = useState(false);
+  const [scrollTop, setScrollTop] = useState(0);
   const location = useLocation();
   const currentPath = location.pathname;
+
+  useEffect(() => {
+    const onScroll = () => {
+      setScrollTop(window.scrollY);
+      setScrolling(window.scrollY > scrollTop);
+    };
+
+    window.addEventListener("scroll", onScroll);
+
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [scrollTop]);
   const getNavStyles = () => {
     const isHomePage = currentPath === "/" || currentPath === "/about-us";
 
@@ -64,7 +77,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} flex justify-between items-center py-5`}
+      className={`${
+        styles.paddingX
+      } flex justify-between items-center py-5 transition-all duration-300 fixed top-0 z-50 w-full ${
+        scrolling ? "bg-white shadow-md" : ""
+      }`}
       style={{ backgroundColor: navStyles.backgroundColor }}
     >
       <Link to="/">

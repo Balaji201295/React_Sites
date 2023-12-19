@@ -12,7 +12,7 @@ const trainingProgramTitleStyles =
   "font-sans font-normal text-xl sm:text-2xl md:text-4xl text-white pb-4";
 
 const Header = () => (
-  <header className={`${headerContainerStyles} relative overflow-hidden`}>
+  <header className={`${headerContainerStyles} relative overflow-hidden pt-40`}>
     <div className="relative z-10">
       {/* Header Content */}
       <div className="flex flex-col">

@@ -13,7 +13,7 @@ const SingleBlog = () => {
   // console.log(data);
   return (
     <main>
-      <div className={`${styles.paddingX} flex flex-col md:flex-row gap-12`}>
+      <div className={`${styles.padding} flex flex-col md:flex-row gap-12`}>
         {/* blog details */}
         <div className=" flex-1 px-4 max-w-6xl mx-auto my-12 flex flex-col lg:flex-row gap-8">
           <div>

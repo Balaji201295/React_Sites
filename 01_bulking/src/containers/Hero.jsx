@@ -7,7 +7,7 @@ const Hero = () => {
 
   return (
     <div
-      className={`w-full sm:h-[800px] flex justify-start flex-col items-start bg-secondary ${heroStyles} relative overflow-hidden`}
+      className={`w-full sm:h-[800px] flex justify-start flex-col items-start bg-secondary ${heroStyles} relative overflow-hidden pt-40`}
     >
       <div className="relative z-10 flex flex-col md:flex-row justify-between gap-8 sm:gap-0">
         <div className="flex-1">
