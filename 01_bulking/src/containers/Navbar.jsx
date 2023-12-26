@@ -79,7 +79,7 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } flex justify-between items-center py-5 transition-all duration-300 fixed top-0 z-50 w-full ${
+      } flex justify-between items-center py-5 transition-all duration-300 fixed top-0 z-50 w-full xl:max-w-[1200px] ${
         scrolling ? "bg-white shadow-md" : ""
       }`}
       style={{ backgroundColor: navStyles.backgroundColor }}
